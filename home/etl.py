@@ -72,11 +72,6 @@ def process_log_data(spark, input_data, output_data):
     #get_timestamp = udf(lambda x: x/1000, IntegerType())
     df = df.withColumn('start_time', get_timestamp('ts'))
     
-    # create datetime column from original timestamp column
-    #get_datetime = udf(lambda x: datetime.fromtimestamp(x/1000).strftime('%Y-%m-%d'))
-    #get_datetime = udf(lambda x: from_unixtime(x), TimestampType())
-    #df = df.withColumn('datetime', get_datetime('start_time'))
-    
     # extract columns to create time table
     time_table = df.selectExpr('start_time',
                                'hour(start_time) as hour',

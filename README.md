@@ -1,4 +1,6 @@
-### Udacity Data Engineering NanoDegree Project 4: Data Lakes
+## Udacity Data Engineering NanoDegree Project 4: Data Lakes
+
+#### Rubric for this project can be found here: https://review.udacity.com/#!/rubrics/2502/view
 
 #### This project continues to follow the imaginary startup Sparkify as they scale their data infrastructure.
 #### They have reached such a high volume of data and have requested to migrate it to a Data Lake on AWS.
