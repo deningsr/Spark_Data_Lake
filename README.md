@@ -12,6 +12,6 @@
 
 ## Technologies Used
 
-    * <code>Spark</code> was the best option due to its ability to handle the data volume and speed requirements.
+* <code>Spark</code> was the best option due to its ability to handle the data volume and speed requirements.
 
-    * <code>Python</code> was used as the primary language due to the various packages available to it and my familiarity with it.
+* <code>Python</code> was used as the primary language due to the various packages available to it and my familiarity with it.
